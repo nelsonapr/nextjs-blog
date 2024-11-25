@@ -49,7 +49,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
         <div className="flex justify-between items-center gap-4 text-sm mb-4">
           <h5>
-            Published {date} by{" "}
+            Publicado em {date} by{" "}
             {author.name && (
               <span>
                 <a href={`/posts/?author=${author.id}`}>{author.name}</a>{" "}
